@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+#a {
+  color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+#a:hover,
+#a:active {
+  background-color: black;
+  width: 63px;
+  border-radius: 45px;
+}
+#b {
+  color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+#b:hover,
+#b:active {
+  background-color: black;
+  width: 42.5px;
+  border-radius: 40px;
+}
+#c {
+  color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+#c:hover,
+#c:active {
+  background-color: black;
+  width: 75px;
+  border-radius: 40px;
+}
+#d {
+  color: white;
+  height: 100%;
+  padding: 10px;
+}
+
+#d:hover,
+#d:active {
+  background-color: black;
+  width: 75px;
+  border-radius: 40px;
+}
+#nav {
+  background: yellowgreen;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    background-color: yellowgreen;
+  }
+  to {
+    background-color: green;
+  }
+}
+
+#img {
+  width: 24%;
+  height: 80%;
+  padding: 10px;
+  border: solid black;
+}
+
+#x {
+  padding: 10px;
+}
+
+#skill{
+  Padding:10px;
+}
+#skills{
+  padding:10px;
+  border-radius: 20px;
+  background-color:lightgreen;
+}
+#skills:hover{
+  color:black;
+  background-color: aqua;
+}
+#mobile_view:hover{
+  color: palevioletred;
+}
+#link{
+  text-decoration-line: underline;
+  
+}
